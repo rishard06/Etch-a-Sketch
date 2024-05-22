@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: lightblue;
+}
+
+.container {
+  margin: 30px;
+}
+
+.horizontal {
+  background: pink; 
+  padding: 10px; 
+  margin: 0; 
+  border: 1px solid black;
+}
+
+.horizontal:hover {
+  background: red;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
