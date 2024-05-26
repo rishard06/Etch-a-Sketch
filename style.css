@@ -6,21 +6,36 @@ body {
 
 .container {
   margin: 30px;
+  border: 2px solid darkblue;
+  width: 600px;
+  height: 600px;
+}
+
+.vertical {
+  display: flex; 
+  justify-content: center;
+  margin: 0;
 }
 
 .horizontal {
-  background: pink; 
-  padding: 10px; 
-  margin: 0; 
+  justify-content: center;
+  background: white;
   border: 1px solid black;
 }
 
 .horizontal:hover {
-  background: red;
+  background: black;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
 }
 
 .btn {
-  display: flex;
   justify-content: center;
-  margin: 30px;
+  background: white;
+  margin: 30px 0px 30px 30px;
+  padding: 5px;
+  border: 2px solid darkblue;
 }
