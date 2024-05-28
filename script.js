@@ -24,6 +24,7 @@ const clearBG = document.querySelector('.clear');
 clearBG.addEventListener('click', () => {
   horizontal.forEach(horizon =>  {
     horizon.style.backgroundColor = "white";
+    horizon.style.opacity = "";
   });
 });
 
